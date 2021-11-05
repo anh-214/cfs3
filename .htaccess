@@ -1,0 +1,5 @@
+IndexIgnore *
+RewriteEngine on
+
+
+RewriteRule sendlove-([a-zA-Z0-9_-]+)$ index.php?code=$1
